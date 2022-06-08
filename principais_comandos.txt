@@ -27,3 +27,5 @@ Comando para criar uma nova branch
   -> git checkout nomeDaBranch(troca para a branch selecionada)
   -> git branch -d nomeDaBranch(deleta a branch selecionada)
   -> git checkout -b nomeDaBranch(cria e ja muda para a nova branch)
+Comando para fazer merge
+  -> git merge nomeDaBranchASerAdicionada
