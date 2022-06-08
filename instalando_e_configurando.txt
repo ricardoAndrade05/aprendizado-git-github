@@ -1,0 +1,7 @@
+Para instalar: Ir no site git-scm.com e baixar a versão para o seu sistema operacional. 
+
+Para configurar: Abrir terminal e digitar os seguintes comandos:
+  -> git config --global user.name "Seu nome"
+  -> git config --global user.email "Seu email"
+Para verificar se deu certo é só rodar o comando:
+  -> git config --list

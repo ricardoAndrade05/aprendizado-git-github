@@ -1,0 +1,4 @@
+Branchs servem para desenvolver features isoladas. A branch master é a principal. É possivel misturar as branchs usando o comando merge.
+O comando merge envia as mudanças de uma branch para outra e apenas a branch alvo sofrerá alterações.
+
+Os principais comandos relacionados a branchs, estão no arquivo principais_comandos.txt 

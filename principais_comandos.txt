@@ -1,0 +1,29 @@
+Comando para criar um repositorio
+  -> git init
+Comando para verificar o status dos arquivos
+  -> git status
+Comando para adicionar arquivo na area provisoria 
+  -> git add . (todos os arquivos)
+  -> git add nomedoarquivo(arquivo especifico)
+Comando para comitar
+  -> git commit -m "Mensagem do que foi feito"
+  -> git commit --amend (alterar o ultimo commit )
+Comando para verificar os logs
+  -> git log
+  -> git log --pretty=oneline
+  -> git log --pretty=oneline -1
+  -> git log --stat
+Comando para verificar as diferenças
+  -> git diff (verifica todos as modificações)
+  -> git diff nome do arquivo(verifica só as diferenças no arquivo)
+  -> git diff --name-only(mostra só os arquivos com diferenças.)
+Comando para tirar arquivo da area de seleção
+  -> git reset HEAD nomedoarquivo
+Comando para desfazer modificações no proprio arquivo
+  -> git checkout -- nomedoarquivo
+Comando para criar uma nova branch
+  -> git branch(verifica quais branchs existem e qual esta selecionada)
+  -> git branch nomeDaBranch(cria uma nova branch)
+  -> git checkout nomeDaBranch(troca para a branch selecionada)
+  -> git branch -d nomeDaBranch(deleta a branch selecionada)
+  -> git checkout -b nomeDaBranch(cria e ja muda para a nova branch)
