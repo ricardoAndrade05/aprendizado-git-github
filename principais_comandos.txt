@@ -29,3 +29,13 @@ Comando para criar uma nova branch
   -> git checkout -b nomeDaBranch(cria e ja muda para a nova branch)
 Comando para fazer merge
   -> git merge nomeDaBranchASerAdicionada
+
+COMANDOS PARA BAIXAR PROJETOS DO GITHUB
+  -> git clone endereçoURL(HTTPS fornecido pelo repositorio)
+
+Comando para subir o projeto para o Github
+  -> git push origin master
+Comando para baixar atualizações do projeto
+  -> git pull origin master
+obs: a palavra master é referente a branch que vc vai estar baixando/subindo as atualizações
+obs2: origin é o repositorio de origin do github
