@@ -33,9 +33,13 @@ Comando para fazer merge
 COMANDOS PARA BAIXAR PROJETOS DO GITHUB
   -> git clone endereçoURL(HTTPS fornecido pelo repositorio)
 
+Comando para linkar o projeto do pc para o repositorio URL
+  -> -> git remote add origin endereçoURL
 Comando para subir o projeto para o Github
   -> git push origin master
 Comando para baixar atualizações do projeto
   -> git pull origin master
+Comando para atualizar o projeto baixado de um repositorio para um novo repositorio
+  -> git remote set-url origin endereçoURL
 obs: a palavra master é referente a branch que vc vai estar baixando/subindo as atualizações
 obs2: origin é o repositorio de origin do github
